@@ -1,0 +1,10 @@
+.header__button {
+  border: none !important;
+  background-color: transparent;
+  margin-left: 20px;
+  color: white;
+}
+
+.header__dropdown {
+  display: flex !important;
+}

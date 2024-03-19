@@ -1,0 +1,39 @@
+.login-page-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+}
+
+#password-visibility {
+  margin-top: 8px;
+  width: 27px;
+  height: 18px;
+  position: absolute;
+  right: 10px;
+  top: 26px;
+}
+
+.password-field {
+  position: relative;
+}
+
+.login-page-content {
+  margin-top: 50px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  box-shadow: 1px 1px 10px grey;
+  /* width:370px; */
+}
+
+.login__label {
+  width: auto;
+  margin-bottom: 2px !important;
+  margin-left: 2px !important;
+}
+
+.login__input {
+  width: 105% !important;
+}

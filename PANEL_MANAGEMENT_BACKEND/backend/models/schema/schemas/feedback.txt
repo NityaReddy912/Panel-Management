@@ -1,0 +1,46 @@
+relationship
+
+----------
+schema
+
+{
+  "title": "feedback",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "created_by": {
+      "bsonType": "string"
+    },
+    "created_on": {
+      "bsonType": "date"
+    },
+    "deleted_by": {
+      "bsonType": "string"
+    },
+    "deleted_on": {
+      "bsonType": "date"
+    },
+    "id": {
+      "bsonType": "int"
+    },
+    "is_deleted": {
+      "bsonType": "bool"
+    },
+    "rating": {
+      "bsonType": "string"
+    },
+    "remark": {
+      "bsonType": "string"
+    },
+    "skill_name": {
+      "bsonType": "string"
+    },
+    "updated_by": {
+      "bsonType": "string"
+    },
+    "updated_on": {
+      "bsonType": "date"
+    }
+  }
+}

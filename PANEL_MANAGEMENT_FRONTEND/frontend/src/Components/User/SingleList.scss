@@ -1,0 +1,43 @@
+.singleList {
+  &__action {
+    display: flex;
+
+    align-items: center;
+  }
+
+  &__action p {
+    margin: 0 10px;
+
+    color: #d9d9d9;
+
+    align-items: center;
+  }
+
+  &__pencilIcon {
+    margin: 0 0px;
+
+    height: 16px;
+
+    color: #555555;
+
+    align-items: center;
+  }
+
+  &__pencilIcon:hover {
+    margin: 0 0px;
+
+    color: #111;
+
+    cursor: pointer;
+  }
+
+  &__trashIcon {
+    height: 16px;
+  }
+
+  &__trashIcon:hover {
+    color: #aa2a2a;
+
+    cursor: pointer;
+  }
+}

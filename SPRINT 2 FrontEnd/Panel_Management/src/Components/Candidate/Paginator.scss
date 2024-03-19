@@ -1,0 +1,29 @@
+.paginator {
+    &__controls {
+        position: absolute;
+        bottom: 60px;
+        right: 0px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0px;
+    }
+
+    &__control {
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 0.25rem 0;
+        margin: 0 1rem;
+        border: none;
+        background-color: #cbcbcb;
+        color: #111;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 0.8rem;
+        border-radius: 50%;
+    }
+
+    .active {
+        background-color: #2865a7;
+        color: #fff;
+    }
+}

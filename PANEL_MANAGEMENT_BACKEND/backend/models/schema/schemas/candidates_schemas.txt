@@ -1,0 +1,136 @@
+candidates
+
+relationship
+
+{
+  "candidate_status_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/candidates_status",
+    "foreignKey": "candidate_status_id",
+    "isList": false
+  },
+  "recruiter_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/users",
+    "foreignKey": "user_id",
+    "isList": false
+  },
+  "sgo_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/sgos",
+    "foreignKey": "sgo_id",
+    "isList": false
+  },
+  "skill_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/skills",
+    "foreignKey": "skill_id",
+    "isList": false
+  },
+  "source_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/candidates_sources",
+    "foreignKey": "source_id",
+    "isList": false
+  }
+}
+
+
+schema
+
+{
+  "title": "candidate",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "additional_remark": {
+      "bsonType": "string"
+    },
+    "candidate_name": {
+      "bsonType": "string"
+    },
+    "candidate_status_id": {
+      "bsonType": "string"
+    },
+    "contact": {
+      "bsonType": "string"
+    },
+    "created_by": {
+      "bsonType": "string"
+    },
+    "created_on": {
+      "bsonType": "date"
+    },
+    "current_company": {
+      "bsonType": "string"
+    },
+    "current_ctc": {
+      "bsonType": "string"
+    },
+    "current_location": {
+      "bsonType": "string"
+    },
+    "date_of_joining": {
+      "bsonType": "date"
+    },
+    "deleted_by": {
+      "bsonType": "string"
+    },
+    "deleted_on": {
+      "bsonType": "date"
+    },
+    "email": {
+      "bsonType": "string"
+    },
+    "expected_ctc": {
+      "bsonType": "string"
+    },
+    "id": {
+      "bsonType": "string"
+    },
+    "is_deleted": {
+      "bsonType": "bool"
+    },
+    "it_experience_years": {
+      "bsonType": "string"
+    },
+    "notice_period_in_days": {
+      "bsonType": "string"
+    },
+    "offer_in_hand": {
+      "bsonType": "string"
+    },
+    "pan": {
+      "bsonType": "string"
+    },
+    "posting_srf": {
+      "bsonType": "string"
+    },
+    "prefered_location": {
+      "bsonType": "string"
+    },
+    "recruiter_id": {
+      "bsonType": "string"
+    },
+    "status": {
+      "bsonType": "string"
+    },
+    "sgo_id": {
+      "bsonType": "string"
+    },
+    "skill_id": {
+      "bsonType": "string"
+    },
+    "source_date": {
+      "bsonType": "date"
+    },
+    "source_id": {
+      "bsonType": "string"
+    },
+    "taleo_candidate_id": {
+      "bsonType": "string"
+    },
+    "updated_by": {
+      "bsonType": "string"
+    },
+    "updated_on": {
+      "bsonType": "date"
+    }
+  }
+}

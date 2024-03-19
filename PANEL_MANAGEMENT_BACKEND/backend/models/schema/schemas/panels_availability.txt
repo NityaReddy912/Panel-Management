@@ -1,0 +1,67 @@
+relationship
+
+{
+  "availability_status_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/panels_availability_status",
+    "foreignKey": "availability_status_id",
+    "isList": false
+  },
+  "panel_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/panels",
+    "foreignKey": "id",
+    "isList": false
+  }
+}
+
+------------
+
+schema
+
+
+{
+  "title": "panels_availability",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "availability_status_id": {
+      "bsonType": "string"
+    },
+    "available_date": {
+      "bsonType": "date"
+    },
+    "created_by": {
+      "bsonType": "string"
+    },
+    "created_on": {
+      "bsonType": "date"
+    },
+    "deleted_by": {
+      "bsonType": "string"
+    },
+    "deleted_on": {
+      "bsonType": "date"
+    },
+    "end_time": {
+      "bsonType": "string"
+    },
+    "is_deleted": {
+      "bsonType": "bool"
+    },
+    "panel_availability_id": {
+      "bsonType": "int"
+    },
+    "panel_id": {
+      "bsonType": "int"
+    },
+    "start_time": {
+      "bsonType": "string"
+    },
+    "updated_by": {
+      "bsonType": "string"
+    },
+    "updated_on": {
+      "bsonType": "date"
+    }
+  }
+}

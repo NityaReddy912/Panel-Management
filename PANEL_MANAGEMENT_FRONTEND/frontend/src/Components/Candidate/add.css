@@ -1,0 +1,86 @@
+.btn {
+  padding: 0 0.5rem;
+  width: 9rem;
+  margin-left: 20px;
+}
+
+input {
+  text-transform: none !important;
+}
+
+.add__input {
+  border: 1px solid rgb(193, 56, 22) !important;
+}
+
+.add__warning {
+  color: #dd6119 !important;
+}
+
+.add__warningIcon {
+  height: 20px;
+  margin-right: 10px;
+  color: #d78125;
+}
+.responsive {
+  max-width: 90% !important;
+
+  padding-left: 30px !important;
+}
+
+.pan {
+  /* background-color: black !important;  */
+
+  padding-right: 1px !important;
+
+  /* max-width: 200px !important; */
+}
+
+@media screen and (min-width: 540px) and (max-width: 600px) {
+  .can__status {
+    padding-right: 108px !important;
+  }
+
+  .can__email {
+    padding-right: 108px !important;
+  }
+
+  .can__role {
+    padding-right: 109px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .can__status {
+    padding-right: 42px !important;
+  }
+
+  .can__email {
+    padding-right: 42px !important;
+  }
+
+  .can__role {
+    padding-right: 42px !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .can__status {
+    padding-right: 70px !important;
+  }
+
+  .can__email {
+    padding-right: 70px !important;
+  }
+
+  .can__role {
+    padding-right: 70px !important;
+  }
+}
+
+/* @media screen and (min-width: 1000px) {
+  .candidate__buttons {
+    margin-left: 440px !important;
+
+    margin-top: -38px !important;
+  }
+} */

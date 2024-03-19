@@ -1,0 +1,39 @@
+relationships
+--
+
+schema
+{
+  "title": "interview_status",
+  "properties": {
+    "         created_by": {
+      "bsonType": "string"
+    },
+    " interview_status": {
+      "bsonType": "string"
+    },
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "created_on": {
+      "bsonType": "date"
+    },
+    "deleted_by": {
+      "bsonType": "string"
+    },
+    "deleted_on": {
+      "bsonType": "date"
+    },
+    "inteview_status_id": {
+      "bsonType": "string"
+    },
+    "is_deleted": {
+      "bsonType": "bool"
+    },
+    "updated_by": {
+      "bsonType": "string"
+    },
+    "updated_on": {
+      "bsonType": "date"
+    }
+  }
+}

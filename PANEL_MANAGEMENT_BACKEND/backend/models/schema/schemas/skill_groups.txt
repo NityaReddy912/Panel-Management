@@ -1,0 +1,42 @@
+relationship
+
+----------
+
+schema
+
+
+{
+  "title": "skill_group",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "created_by": {
+      "bsonType": "string"
+    },
+    "created_on": {
+      "bsonType": "date"
+    },
+    "deleted_by": {
+      "bsonType": "string"
+    },
+    "deleted_on": {
+      "bsonType": "date"
+    },
+    "is_deleted": {
+      "bsonType": "bool"
+    },
+    "skill_group_id": {
+      "bsonType": "string"
+    },
+    "skill_group_name": {
+      "bsonType": "string"
+    },
+    "updated_by": {
+      "bsonType": "string"
+    },
+    "updated_on": {
+      "bsonType": "date"
+    }
+  }
+}

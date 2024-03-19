@@ -1,0 +1,83 @@
+relationship
+
+{
+  "candidate_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/candidates",
+    "foreignKey": "id",
+    "isList": false
+  },
+  "feedback_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/feedbacks",
+    "foreignKey": "id",
+    "isList": false
+  },
+  "interview_status_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/interview_status",
+    "foreignKey": "inteview_status_id",
+    "isList": false
+  },
+  "panels_availability_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/panels_availability",
+    "foreignKey": "panel_availability_id",
+    "isList": false
+  },
+  "type_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/interview_types",
+    "foreignKey": "type_id",
+    "isList": false
+  }
+}
+
+--------
+schema
+
+{
+  "title": "interview",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "candidate_id": {
+      "bsonType": "string"
+    },
+    "created_by": {
+      "bsonType": "string"
+    },
+    "created_on": {
+      "bsonType": "date"
+    },
+    "deleted_by": {
+      "bsonType": "string"
+    },
+    "deleted_on": {
+      "bsonType": "date"
+    },
+    "feedback_id": {
+      "bsonType": "int"
+    },
+    "id": {
+      "bsonType": "int"
+    },
+    "interview_status_id": {
+      "bsonType": "string"
+    },
+    "is_deleted": {
+      "bsonType": "bool"
+    },
+    "panels_availability_id": {
+      "bsonType": "int"
+    },
+    "remark": {
+      "bsonType": "string"
+    },
+    "type_id": {
+      "bsonType": "string"
+    },
+    "updated_by": {
+      "bsonType": "string"
+    },
+    "updated_on": {
+      "bsonType": "date"
+    }
+  }
+}

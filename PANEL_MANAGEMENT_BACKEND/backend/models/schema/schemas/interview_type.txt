@@ -1,0 +1,41 @@
+
+relationships
+
+-------
+schema
+
+{
+  "title": "interview_type",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "created_by": {
+      "bsonType": "string"
+    },
+    "created_on": {
+      "bsonType": "date"
+    },
+    "deleted_by": {
+      "bsonType": "string"
+    },
+    "deleted_on": {
+      "bsonType": "date"
+    },
+    "is_deleted": {
+      "bsonType": "bool"
+    },
+    "type": {
+      "bsonType": "string"
+    },
+    "type_id": {
+      "bsonType": "string"
+    },
+    "updated_by": {
+      "bsonType": "string"
+    },
+    "updated_on": {
+      "bsonType": "date"
+    }
+  }
+}

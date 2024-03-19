@@ -1,0 +1,73 @@
+relationship
+
+{
+  "grade": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/grades",
+    "foreignKey": "grade",
+    "isList": false
+  },
+  "panel_level": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/panel_level",
+    "foreignKey": "panel_level",
+    "isList": false
+  },
+  "user_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/users",
+    "foreignKey": "user_id",
+    "isList": false
+  }
+}
+
+-----------
+schema
+
+{
+  "title": "panel",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "contact": {
+      "bsonType": "string"
+    },
+    "created_by": {
+      "bsonType": "string"
+    },
+    "created_on": {
+      "bsonType": "date"
+    },
+    "deleted_by": {
+      "bsonType": "string"
+    },
+    "deleted_on": {
+      "bsonType": "date"
+    },
+    "grade": {
+      "bsonType": "string"
+    },
+    "id": {
+      "bsonType": "int"
+    },
+    "is_active": {
+      "bsonType": "bool"
+    },
+    "is_deleted": {
+      "bsonType": "bool"
+    },
+    "panel_level": {
+      "bsonType": "string"
+    },
+    "remarks": {
+      "bsonType": "string"
+    },
+    "updated_by": {
+      "bsonType": "string"
+    },
+    "updated_on": {
+      "bsonType": "date"
+    },
+    "user_id": {
+      "bsonType": "string"
+    }
+  }
+}

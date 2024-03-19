@@ -1,0 +1,58 @@
+relationship
+
+{
+  "user_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/panels",
+    "foreignKey": "user_id",
+    "isList": false
+  }
+}
+
+---------
+schema
+
+
+{
+  "title": "user",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "created_by": {
+      "bsonType": "string"
+    },
+    "created_on": {
+      "bsonType": "date"
+    },
+    "deleted_by": {
+      "bsonType": "string"
+    },
+    "deleted_on": {
+      "bsonType": "date"
+    },
+    "email": {
+      "bsonType": "string"
+    },
+    "is_active": {
+      "bsonType": "bool"
+    },
+    "is_deleted": {
+      "bsonType": "bool"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "password": {
+      "bsonType": "string"
+    },
+    "updated_by": {
+      "bsonType": "string"
+    },
+    "updated_on": {
+      "bsonType": "date"
+    },
+    "user_id": {
+      "bsonType": "string"
+    }
+  }
+}

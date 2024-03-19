@@ -1,0 +1,305 @@
+html {
+  overflow-x: hidden;
+}
+.wrapper {
+  margin: 10px;
+  margin-bottom: 0;
+}
+.container-wrap {
+  margin: 30px 0;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.filterNameMargin {
+  margin-left: 30px !important;
+}
+
+.filterNameMarginCS {
+  margin-left: 70px !important;
+}
+
+li a {
+  text-decoration: none !important;
+}
+
+.addBtnPanel {
+  width: 170px !important;
+}
+
+.addBtnCS {
+  width: 210px !important;
+}
+
+.admin__logo {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: underline;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.redirect {
+  display: flex;
+  justify-content: center;
+}
+
+.redirect span {
+  position: absolute;
+  top: 70px;
+  padding: 7px 15px;
+  background-color: #ffee00;
+  color: #111;
+  border: 1px solid #eedb0a;
+}
+
+.table-inactive {
+  background-color: #858585;
+  color: #6f6f6f;
+  text-decoration: line-through;
+}
+
+.addButton {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around;
+}
+
+.plusIcon {
+  height: 20px;
+}
+
+.row {
+  margin: 10px 0px;
+}
+
+h2 {
+  text-shadow: 2px 2px #ccc;
+}
+
+.form-check-input {
+  clear: left;
+}
+
+.form-switch.form-switch-md {
+  margin-bottom: 1rem; /* JUST FOR STYLING PURPOSE */
+}
+
+.form-switch.form-switch-md .form-check-input {
+  height: 1.5rem;
+  width: calc(2rem + 0.75rem);
+  border-radius: 3rem;
+}
+.btn {
+  width: 8rem;
+  font-size: 0.9rem;
+}
+
+label,
+input[type="text"],
+#select {
+  font-size: 0.9rem;
+  width: 25rem;
+  text-transform: capitalize;
+}
+input[type="text"] {
+  color: #000 !important;
+  text-transform: none;
+}
+input[type="email"] {
+  text-transform: none;
+}
+
+.search__input {
+  border: 1px solid rgb(193, 56, 22) !important;
+}
+
+.search__warning {
+  color: #dd6119;
+}
+
+.search_marginLeft {
+  margin-left: 10px !important;
+}
+
+.table__warning {
+  border: 1px solid red;
+}
+
+.singleList__warning {
+  color: #dd6119 !important;
+}
+
+.search__warningIcon {
+  height: 20px;
+  margin-right: 10px;
+  color: #d78125;
+}
+
+.role__search {
+  width: 25rem !important;
+}
+
+.loginInput {
+  width: auto;
+}
+
+.loginLabel {
+  width: 29rem !important;
+}
+
+table .form-check {
+  margin-bottom: -0.4rem !important;
+  display: inline-block;
+}
+.bi {
+  color: #000;
+}
+.bar {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0 0.3rem;
+}
+.form-control:disabled {
+  background-color: #ccc !important;
+}
+table th,
+table tr {
+  font-size: 0.9rem;
+}
+
+.profile {
+  background: #000;
+  border-radius: 2rem;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+}
+
+.profile .bi {
+  color: aliceblue;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.profile-text {
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0 0.5rem;
+  line-height: 0.9rem;
+}
+.profile-text > span {
+  font-size: 0.7rem;
+  display: block;
+}
+
+.nav-link {
+  text-decoration: underline;
+}
+.bi-trash {
+  font-size: 1.5rem;
+  color: #0d6efd;
+}
+
+table #select {
+  width: 15rem;
+}
+
+.addModal__btn {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.addModal__btn button {
+  border: none;
+  margin-right: 20px;
+  padding: 8px 20px;
+  background-color: #0d6efd;
+  color: #fff;
+  border-radius: 4px;
+}
+
+h2 {
+  text-transform: capitalize;
+  margin: 2rem 0;
+}
+
+.search {
+  margin: 0 auto !important;
+  margin-top: 50px !important;
+}
+
+.edit-header {
+  margin-bottom: 30px !important;
+}
+
+.addHead {
+  margin-bottom: 30px !important;
+}
+
+.btnGroup {
+  margin-top: 25px !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .filterNameMargin {
+    margin-left: 10px;
+  }
+
+  .filterNameMarginCS {
+    margin-left: 10px;
+  }
+
+  .search .btn {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .filterNameMargin {
+    margin-left: 0px !important;
+  }
+
+  .filterNameMarginCS {
+    margin-left: 0px !important;
+  }
+
+  label,
+  input[type="text"],
+  #select {
+    font-size: 0.9rem;
+    width: 20rem;
+    margin-top: 5px;
+    text-transform: capitalize;
+  }
+
+  .search {
+    margin-top: 15px !important;
+  }
+
+  .edit-header {
+    margin-bottom: 10px !important;
+  }
+
+  .searchHead {
+    margin-bottom: 2px !important;
+  }
+
+  .container-wrap {
+    margin-left: 10px;
+  }
+
+  .addHead {
+    margin-bottom: 10px !important;
+  }
+
+  .addList__button {
+    flex-wrap: nowrap !important;
+    width: 40vw !important;
+    display: flex;
+    margin-top: 10px !important;
+  }
+}

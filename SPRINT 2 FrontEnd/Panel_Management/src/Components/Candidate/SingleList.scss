@@ -1,0 +1,34 @@
+.singleList {
+    &__action {
+        display: flex;
+        align-items: center;
+    }
+
+    &__action p {
+        margin: 0 10px;
+        color: #d9d9d9;
+    }
+
+    &__pencilIcon {
+        height: 20px;
+        color: #555555;
+    }
+
+    &__icon {
+        height: 20px;
+    }
+
+    &__pencilIcon:hover {
+        color: #111;
+        cursor: pointer;
+    }
+
+    &__trashIcon {
+        height: 16px;
+    }
+
+    &__trashIcon:hover {
+        color: #aa2a2a;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,50 @@
+.btn {
+  padding: 0 0.5rem;
+  width: 9rem;
+  margin-left: 20px;
+}
+
+input {
+  text-transform: none !important;
+}
+
+.add__input {
+  border: 1px solid rgb(193, 56, 22) !important;
+}
+
+.add__warning {
+  color: #dd6119 !important;
+}
+
+.add__warningIcon {
+  height: 20px;
+  margin-right: 10px;
+  color: #d78125;
+}
+.responsive {
+  max-width: 90% !important;
+
+  padding-left: 30px !important;
+}
+
+.pan {
+  /* background-color: black !important;  */
+
+  padding-right: 1px !important;
+
+  /* max-width: 200px !important; */
+}
+
+@media screen and (min-width: 1300px) {
+  .status {
+    padding-right: 97px !important;
+  }
+
+  .email {
+    padding-right: 97px !important;
+  }
+
+  .role {
+    padding-right: 97px !important;
+  }
+}

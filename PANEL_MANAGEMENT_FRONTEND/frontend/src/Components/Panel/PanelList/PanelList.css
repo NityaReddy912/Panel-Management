@@ -1,0 +1,50 @@
+@media screen and (min-width: 540px) and (max-width: 600px) {
+  .Panel__Grade {
+    padding-right: 109px !important;
+  }
+
+  .Panel__Interview {
+    padding-right: 109px !important;
+  }
+
+  .Panel__Email {
+    padding-right: 109px !important;
+  }
+  .Panel__Role {
+    padding-right: 109px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Panel__Grade {
+    padding-right: 42px !important;
+  }
+
+  .Panel__Interview {
+    padding-right: 42px !important;
+  }
+
+  .Panel__Email {
+    padding-right: 42px !important;
+  }
+  .Panel__Role {
+    padding-right: 42px !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .Panel__Grade {
+    padding-right: 79px !important;
+  }
+
+  .Panel__Interview {
+    padding-right: 79px !important;
+  }
+
+  .Panel__Email {
+    padding-right: 79px !important;
+  }
+  .Panel__Role {
+    padding-right: 79px !important;
+  }
+}

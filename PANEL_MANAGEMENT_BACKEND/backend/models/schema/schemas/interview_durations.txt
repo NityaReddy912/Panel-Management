@@ -1,0 +1,39 @@
+relationships
+
+--
+schema
+{
+  "title": "interview_duration",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "created_by": {
+      "bsonType": "string"
+    },
+    "created_on": {
+      "bsonType": "date"
+    },
+    "deleted_by": {
+      "bsonType": "string"
+    },
+    "deleted_on": {
+      "bsonType": "date"
+    },
+    "duration_id": {
+      "bsonType": "string"
+    },
+    "duration_time_minutes": {
+      "bsonType": "string"
+    },
+    "is_deleted": {
+      "bsonType": "bool"
+    },
+    "updated_by": {
+      "bsonType": "string"
+    },
+    "updated_on": {
+      "bsonType": "date"
+    }
+  }
+}

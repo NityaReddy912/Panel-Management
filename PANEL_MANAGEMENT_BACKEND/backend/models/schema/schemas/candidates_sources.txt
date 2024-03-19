@@ -1,0 +1,44 @@
+relationships
+{
+  "source_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/candidates",
+    "foreignKey": "source_id",
+    "isList": false
+  }
+}
+schema
+{
+  "title": "candidates_source",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "created_by": {
+      "bsonType": "string"
+    },
+    "created_on": {
+      "bsonType": "date"
+    },
+    "deleted_by": {
+      "bsonType": "string"
+    },
+    "deleted_on": {
+      "bsonType": "date"
+    },
+    "is_deleted": {
+      "bsonType": "bool"
+    },
+    "source": {
+      "bsonType": "string"
+    },
+    "source_id": {
+      "bsonType": "string"
+    },
+    "updated_by": {
+      "bsonType": "string"
+    },
+    "updated_on": {
+      "bsonType": "date"
+    }
+  }
+}

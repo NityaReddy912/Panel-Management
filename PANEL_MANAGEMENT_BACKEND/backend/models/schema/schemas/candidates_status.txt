@@ -1,0 +1,40 @@
+relationship
+
+--------
+schema
+
+{
+  "title": "candidates_status",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "candidate_status": {
+      "bsonType": "string"
+    },
+    "candidate_status_id": {
+      "bsonType": "string"
+    },
+    "created_by": {
+      "bsonType": "string"
+    },
+    "created_on": {
+      "bsonType": "date"
+    },
+    "deleted_by": {
+      "bsonType": "string"
+    },
+    "deleted_on": {
+      "bsonType": "date"
+    },
+    "is_deleted": {
+      "bsonType": "bool"
+    },
+    "updated_by": {
+      "bsonType": "string"
+    },
+    "updated_on": {
+      "bsonType": "date"
+    }
+  }
+}

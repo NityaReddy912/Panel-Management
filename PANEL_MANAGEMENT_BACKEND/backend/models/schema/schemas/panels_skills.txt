@@ -1,0 +1,73 @@
+relationship
+
+{
+  "duration_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/interview_durations",
+    "foreignKey": "duration_id",
+    "isList": false
+  },
+  "panel_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/panels",
+    "foreignKey": "id",
+    "isList": false
+  },
+  "skill_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/skills",
+    "foreignKey": "skill_id",
+    "isList": false
+  },
+  "type_id": {
+    "ref": "#/relationship/mongodb-atlas/Panel_Management/interview_types",
+    "foreignKey": "type_id",
+    "isList": false
+  }
+}
+
+
+----------
+schema
+
+{
+  "title": "panels_skill",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "created_by": {
+      "bsonType": "string"
+    },
+    "created_on": {
+      "bsonType": "date"
+    },
+    "deleted_by": {
+      "bsonType": "string"
+    },
+    "deleted_on": {
+      "bsonType": "date"
+    },
+    "duration_id": {
+      "bsonType": "string"
+    },
+    "id": {
+      "bsonType": "int"
+    },
+    "is_deleted": {
+      "bsonType": "bool"
+    },
+    "panel_id": {
+      "bsonType": "int"
+    },
+    "skill_id": {
+      "bsonType": "string"
+    },
+    "type_id": {
+      "bsonType": "string"
+    },
+    "updated_by": {
+      "bsonType": "string"
+    },
+    "updated_on": {
+      "bsonType": "date"
+    }
+  }
+}

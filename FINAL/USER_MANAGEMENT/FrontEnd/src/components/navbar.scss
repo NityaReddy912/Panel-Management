@@ -1,0 +1,78 @@
+html {
+    overflow-x: hidden;
+}
+.wrapper {
+    margin: 10px;
+}
+.container-wrap {
+    margin: 0px 0;
+    margin-left: 15px;
+}
+.filterNameMargin {
+    margin-left: 30px;
+}
+.filterNameMarginCS {
+    margin-left: 70px;
+}
+.row {
+    margin: 10px 0px;
+}
+h2 {
+    text-shadow: 2px 2px #ccc;
+}
+.btn {
+    width: 8rem;
+    font-size: 0.9rem;
+}
+
+
+table .form-check {
+    margin-bottom: -0.4rem !important;
+    display: inline-block;
+}
+.bi {
+    color: #000;
+}
+.bar {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0 0.3rem;
+}
+.profile {
+    background: #000;
+    border-radius: 2rem;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+}
+.profile .bi {
+    color: aliceblue;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+.profile-text {
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+    line-height: 0.9rem;
+}
+.profile-text>span {
+    font-size: 0.7rem;
+    display: block;
+}
+.nav-link {
+    text-decoration: underline;
+}
+.bi-trash {
+    font-size: 1.5rem;
+    color: #0d6efd;
+}
+table #select {
+    width: 15rem;
+}
+h2 {
+    margin: 2rem 0;
+}
+.search {
+    margin: 0 auto !important;
+}

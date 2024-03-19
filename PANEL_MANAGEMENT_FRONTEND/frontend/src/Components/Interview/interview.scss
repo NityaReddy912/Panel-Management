@@ -1,0 +1,393 @@
+/* Defining a custom border on all
+            sides except the top side */
+.interview__container {
+  border: 1px solid rgb(231, 225, 225);
+  border-radius: 5px !important;
+  border-top: none;
+  margin: 32px 16px;
+  padding: 8px 0px;
+  // background-color: red;
+}
+.container
+/* Defining the style of the 
+          heading/legend for custom fieldset */
+.interview__container h1 {
+  font: 16px normal;
+  margin: -16px -8px 0;
+  color: black !important;
+}
+
+/* Using float:left allows us to mimic
+             the legend like fieldset. The 
+             float:right property can also be 
+             used to show the legend on right side */
+
+.interview__container h1 span {
+  float: left;
+  font-weight: 500 !important;
+  color: rgb(58, 58, 58);
+  letter-spacing: 0.8px;
+}
+
+/* Creating the custom top border to make
+              it look like fieldset defining small 
+              border before the legend. The width 
+              can be modified to change position 
+              of the legend */
+.interview__container h1:before {
+  border-top: 1px solid rgb(231, 225, 225);
+  // border-top-left-radius: 10px !important;
+  content: "   ";
+  float: left;
+  margin: 8px 2px 0 4px;
+  width: 12px;
+  position: relative;
+  top: -15px !important;
+  border-radius: 5px !important;
+}
+
+/* Defining a long border after the 
+          legend, using overflow hidden to 
+          actually hide the line behind the 
+          legend text. It can be removed
+          for a different effect */
+.interview__container h1:after {
+  border-top: 1px solid rgb(231, 225, 225);
+  border-top-right-radius: 5px !important;
+  content: " ";
+  display: block;
+  height: 24px;
+  left: 2px;
+  margin: 0 1px 0 0;
+  overflow: hidden;
+  position: relative;
+  top: -7px;
+  border-radius: 5px !important;
+}
+
+.interview__tag {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500 !important;
+  font-size: 17px;
+  position: relative;
+  top: -15px !important;
+}
+
+.interview__input {
+  margin-left: 20px !important;
+  padding-left: 10px !important;
+  max-width: 90%;
+  font-size: 15px !important;
+}
+
+.interview__toDate {
+  margin-left: 10px !important;
+}
+
+.interview__candidateName {
+  padding-left: 10px !important;
+}
+
+.interview__scheduleIcon {
+  height: 35px;
+}
+
+.interview__xcrossIcon {
+  height: 35px;
+  color: #c04040;
+}
+
+.interview__toDateInput {
+  margin-left: -10px !important;
+}
+
+.interview__form {
+  margin-left: 20px !important;
+}
+
+.interview__table {
+  padding-left: 40px !important;
+}
+
+.interview__table th,
+.interview__table td {
+  padding-left: 40px !important;
+}
+
+.interview__btn {
+  // margin-left: 20px !important;
+  margin-top: 12px !important;
+}
+.first1 {
+  margin-top: 12px !important;
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  #cancelbutton {
+    margin-left: 90px !important;
+  }
+
+  label {
+    color: black !important;
+  }
+}
+
+.icon {
+  position: absolute !important;
+
+  // align-items: right !important;
+}
+
+.flex {
+  display: flex !important;
+  justify-content: right !important;
+}
+
+// .padding1{
+//   padding-right: 106px !important;
+
+// }
+// @media screen and (min-width: 1190px){
+//   .padding1{
+//     padding-right: 30px !important;
+
+//   }
+
+// }
+
+// @media screen and (min-width: 1280px){
+//   .padding1{
+//     padding-right: 70px !important;
+
+//   }
+
+// }
+
+// @media screen and (min-width: 446px) {
+//   form-select{
+//     max-width: 25% !important;
+//   }
+// }
+
+.responsive {
+  margin-left: 10px;
+  max-width: 90%;
+}
+@media screen and (min-width: 540px) and (max-width: 600px) {
+  .padding {
+    padding-right: 122px !important;
+  }
+
+  .email {
+    padding-right: 123px !important;
+  }
+
+  .contact {
+    padding-right: 123px !important;
+  }
+
+  .status {
+    padding-right: 90px !important;
+  }
+
+  .num {
+    padding-right: 98px !important;
+  }
+
+  .res__date {
+    padding-right: 122px !important;
+  }
+
+  .schedule__date {
+    padding-right: 106px !important;
+  }
+
+  .can__name {
+    padding-left: 23px !important;
+  }
+
+  .interview_padding {
+    padding-right: 140px !important;
+
+    padding-left: 33px !important;
+  }
+
+  .date {
+    padding-right: 80px !important;
+  }
+
+  .role {
+    padding-right: 105px !important;
+  }
+
+  .interviewType {
+    padding-right: 105px !important;
+  }
+
+  .selectStatus {
+    padding-right: 105px !important;
+  }
+  .int__date {
+    padding-right: 131px !important;
+  }
+  .int__role {
+    padding-right: 131px !important;
+  }
+  .int__interviewType {
+    padding-right: 131px !important;
+  }
+  .int__status {
+    padding-right: 131px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .padding {
+    padding-right: 56px !important;
+  }
+
+  .email {
+    padding-right: 55px !important;
+  }
+
+  .contact {
+    padding-right: 55px !important;
+  }
+
+  .status {
+    padding-right: 60px !important;
+  }
+
+  .num {
+    padding-right: 62px !important;
+  }
+
+  .res__date {
+    padding-right: 56px !important;
+  }
+
+  .schedule__date {
+    padding-right: 50px !important;
+  }
+
+  .can__name {
+    padding-left: 22px !important;
+  }
+
+  .interview_padding {
+    padding-right: 81px !important;
+
+    padding-left: 33px !important;
+  }
+
+  .date {
+    padding-right: 70px !important;
+  }
+
+  .role {
+    padding-right: 70px !important;
+  }
+
+  .interviewType {
+    padding-right: 70px !important;
+  }
+
+  .selectStatus {
+    padding-right: 70px !important;
+  }
+  .int__date {
+    padding-right: 58px !important;
+  }
+  .int__role {
+    padding-right: 58px !important;
+  }
+  .int__interviewType {
+    padding-right: 58px !important;
+  }
+  .int__status {
+    padding-right: 58px !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .padding {
+    padding-right: 85px !important;
+  }
+
+  .email {
+    padding-right: 85px !important;
+  }
+
+  .contact {
+    padding-right: 85px !important;
+  }
+
+  .res__date {
+    padding-right: 85px !important;
+  }
+
+  .schedule__date {
+    padding-right: 78px !important;
+  }
+
+  .interview_padding {
+    padding-right: 109px !important;
+
+    padding-left: 33px !important;
+  }
+
+  .can__name {
+    padding-left: 22px !important;
+  }
+
+  .status {
+    padding-right: 90px !important;
+  }
+
+  .num {
+    padding-right: 98px !important;
+  }
+
+  .to__date {
+    padding-right: 67px !important;
+
+    padding-left: 26px !important;
+  }
+
+  .date {
+    padding-right: 65px !important;
+  }
+
+  .role {
+    padding-right: 105px !important;
+  }
+
+  .interviewType {
+    padding-right: 105px !important;
+  }
+
+  .selectStatus {
+    padding-right: 105px !important;
+  }
+  .int__date {
+    padding-right: 93px !important;
+  }
+  .int__role {
+    padding-right: 93px !important;
+  }
+  .int__interviewType {
+    padding-right: 94px !important;
+  }
+  .int__status {
+    padding-right: 94px !important;
+  }
+}
+// .padding1{
+//   padding-right: 105px !important;
+
+// }
+
+@media screen and (max-width: 700px) {
+  #cancelbutton {
+    margin-top: 4px !important;
+  }
+}

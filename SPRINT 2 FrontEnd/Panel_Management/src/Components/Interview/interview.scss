@@ -1,0 +1,297 @@
+/* Defining a custom border on all
+            sides except the top side */
+.interview__container {
+  border: 1px solid rgb(231, 225, 225);
+  border-radius: 5px !important;
+  border-top: none;
+  margin: 32px 16px;
+  padding: 8px;
+  // background-color: red;
+}
+
+/* Defining the style of the 
+          heading/legend for custom fieldset */
+.interview__container h1 {
+  font: 16px normal;
+  margin: -16px -8px 0;
+  color: black !important;
+}
+
+/* Using float:left allows us to mimic
+             the legend like fieldset. The 
+             float:right property can also be 
+             used to show the legend on right side */
+
+.interview__container h1 span {
+  float: left;
+  font-weight: 500 !important;
+  color: rgb(58, 58, 58);
+  letter-spacing: 0.8px;
+}
+
+/* Creating the custom top border to make
+              it look like fieldset defining small 
+              border before the legend. The width 
+              can be modified to change position 
+              of the legend */
+.interview__container h1:before {
+  border-top: 1px solid rgb(231, 225, 225);
+  // border-top-left-radius: 10px !important;
+  content: "   ";
+  float: left;
+  margin: 8px 2px 0 4px;
+  width: 12px;
+}
+
+/* Defining a long border after the 
+          legend, using overflow hidden to 
+          actually hide the line behind the 
+          legend text. It can be removed
+          for a different effect */
+.interview__container h1:after {
+  border-top: 1px solid rgb(231, 225, 225);
+  border-top-right-radius: 5px !important;
+  content: " ";
+  display: block;
+  height: 24px;
+  left: 2px;
+  margin: 0 1px 0 0;
+  overflow: hidden;
+  position: relative;
+  top: 8px;
+}
+
+.interview__tag {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500 !important;
+}
+
+.interview__input {
+  margin-left: 20px !important;
+  padding-left: 10px !important;
+  max-width: 90%;
+  font-size: 15px !important;
+}
+
+.interview__toDate {
+  margin-left: 10px !important;
+}
+
+.interview__scheduleIcon {
+  height: 40px;
+}
+
+.interview__toDateInput {
+  margin-left: -10px !important;
+}
+
+.interview__form {
+  margin-left: 20px !important;
+}
+
+.interview__table {
+  padding-left: 40px !important;
+}
+
+.interview__table th,
+.interview__table td {
+  padding-left: 40px !important;
+}
+
+.interview__btn {
+  // margin-left: 20px !important;
+  margin-top: 12px !important;
+}
+.first1 {
+  margin-top: 12px !important;
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  #cancelbutton {
+    margin-left: 90px !important;
+  }
+
+  label {
+    color: black !important;
+  }
+}
+
+.icon {
+  position: absolute !important;
+
+  // align-items: right !important;
+}
+
+.flex {
+  display: flex !important;
+  justify-content: right !important;
+}
+
+// .padding1{
+//   padding-right: 106px !important;
+
+// }
+// @media screen and (min-width: 1190px){
+//   .padding1{
+//     padding-right: 30px !important;
+
+//   }
+
+// }
+
+// @media screen and (min-width: 1280px){
+//   .padding1{
+//     padding-right: 70px !important;
+
+//   }
+
+// }
+
+// @media screen and (min-width: 446px) {
+//   form-select{
+//     max-width: 25% !important;
+//   }
+// }
+
+.responsive {
+  margin-left: 10px;
+  max-width: 90%;
+}
+@media screen and (min-width: 540px) and (max-width: 600px) {
+  .padding {
+    padding-right: 108px !important;
+  }
+
+  .email {
+    padding-right: 108px !important;
+  }
+
+  .contact {
+    padding-right: 108px !important;
+  }
+
+  .status {
+    padding-right: 90px !important;
+  }
+
+  .num {
+    padding-right: 98px !important;
+  }
+
+  .padding1 {
+    padding-right: 90px !important;
+  }
+
+  .date {
+    padding-right: 80px !important;
+  }
+
+  .role {
+    padding-right: 105px !important;
+  }
+
+  .interviewType {
+    padding-right: 105px !important;
+  }
+
+  .selectStatus {
+    padding-right: 105px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .padding {
+    padding-right: 50px !important;
+  }
+
+  .email {
+    padding-right: 50px !important;
+  }
+
+  .contact {
+    padding-right: 50px !important;
+  }
+
+  .status {
+    padding-right: 60px !important;
+  }
+
+  .num {
+    padding-right: 62px !important;
+  }
+
+  .padding1 {
+    padding-right: 38px !important;
+  }
+
+  .date {
+    padding-right: 70px !important;
+  }
+
+  .role {
+    padding-right: 70px !important;
+  }
+
+  .interviewType {
+    padding-right: 70px !important;
+  }
+
+  .selectStatus {
+    padding-right: 70px !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .padding {
+    padding-right: 80px !important;
+  }
+
+  .email {
+    padding-right: 80px !important;
+  }
+
+  .contact {
+    padding-right: 80px !important;
+  }
+  .res__date {
+    padding-right: 79px !important;
+  }
+  .interview_padding {
+    padding-right: 100px !important;
+    padding-left: 33px !important;
+  }
+  .can__name {
+    padding-left: 20px !important;
+  }
+
+  .status {
+    padding-right: 90px !important;
+  }
+
+  .num {
+    padding-right: 98px !important;
+  }
+
+  .padding1 {
+    padding-right: 67px !important;
+  }
+
+  .date {
+    padding-right: 65px !important;
+  }
+
+  .role {
+    padding-right: 105px !important;
+  }
+
+  .interviewType {
+    padding-right: 105px !important;
+  }
+
+  .selectStatus {
+    padding-right: 105px !important;
+  }
+}
+// .padding1{
+//   padding-right: 105px !important;
+
+// }

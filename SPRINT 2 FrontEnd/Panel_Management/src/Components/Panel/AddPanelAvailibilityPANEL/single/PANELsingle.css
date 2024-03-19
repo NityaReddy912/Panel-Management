@@ -1,0 +1,44 @@
+input[type="time"]:before{
+    content:attr(placeholder);
+
+}
+
+/* input{
+    background-color: aqua;
+} */input[type="time"]::before {
+
+    content: attr(placeholder);
+
+    position: absolute;
+
+    color: #999999;
+
+  }
+
+ 
+
+  input[type="time"] {
+
+    color: #ffffff;
+
+  }
+
+ 
+
+  input[type="time"]:focus,
+
+  input[type="time"]:valid {
+
+    color: #666666;
+
+  }
+
+ 
+
+  input[type="time"]:focus::before,
+
+  input[type="time"]:valid::before {
+
+    content: "";
+
+  }

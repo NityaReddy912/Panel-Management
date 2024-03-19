@@ -1,0 +1,6 @@
+projectKey=User_Code_Coverage
+serverUrl=http://localhost:9000
+serverVersion=8.9.9.56886
+dashboardUrl=http://localhost:9000/dashboard?id=User_Code_Coverage
+ceTaskId=AYVPoDOm-_e_5hRe7eaC
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYVPoDOm-_e_5hRe7eaC
